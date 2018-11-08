@@ -4,7 +4,8 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
-}
+    background:#f5f5f5;
+    }
 
 /*
  BARVY
@@ -21,3 +22,150 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+.vizual {
+    padding: 30px;
+	margin-left: 100px;
+    float: left;
+    font-family: 'Rubik';
+    background: linear-gradient(#06d7c1,#50cc49);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 335px;
+    height: 440px;
+    margin-top: 100px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    left: 110px;
+    top: 160px;
+    font-family: 'Rubik';
+}
+
+.bota {
+    position: absolute;
+    left: 30px;
+    top: 250px;    
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Rubik';
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Rubik';
+}
+
+.detaily {
+    background-color: white;
+    float: left;
+    font-family: 'Rubik';
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 335px;
+    height: 440px;
+    margin-top: 100px;
+}
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.produkt {
+    color:  #959595;
+    font-weight: normal;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.popis {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    border-bottom: 2px solid #06d7c1; 
+    }
+
+.parametr {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 30px;
+ }
+
+ .menu li {
+	display: inline-block;
+	margin: 0px;
+    padding: 5px;
+    font-size: 14px;
+ }
+ .menu a {
+	display: block;
+	padding: 5px 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: red;
+    border-radius: 100%;
+}
+
+.cenovka {
+    position: absolute;
+    color: white;
+    left: 290px;
+    top: 460px;
+    width: 305px;
+    height: 10px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.tlacitko {
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 40px;
+    width:130px;
+    height:40px;
+    background-color:  #f15f42;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+ }
+
+ a:hover {
+    color: white;
+    text-decoration: none;
+ }
+/*
+.tlacitko:hover {
+     background-color: #f15f42;
+     }
+     */
+
+
+
+
