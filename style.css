@@ -37,6 +37,10 @@ body {
     margin-top: 100px;
 }
 
+.zbozi {
+position: relative;
+}
+
 .slogan {
     font-size: 16px;
     font-weight: 500;
@@ -81,7 +85,9 @@ body {
     font-weight: 500;
     padding-left: 30px;
     padding-top: 30px;
+    text-transform: uppercase;
 }
+
 .produkt {
     color:  #959595;
     font-weight: normal;
@@ -101,6 +107,7 @@ body {
     font-size: 14px;
     padding-left: 30px;
     padding-top: 30px;
+    text-transform: uppercase;
  }
 
  .menu li {
